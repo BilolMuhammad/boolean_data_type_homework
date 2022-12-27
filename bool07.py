@@ -1,4 +1,4 @@
-def main(a,b):
+def main(a, b):
     """
     check the following statement "They are not equal"
     Args:
@@ -8,4 +8,7 @@ def main(a,b):
         bool
     """
     # Write your code here
-    return 
+    return a != b
+
+
+print(main(3, 3))
