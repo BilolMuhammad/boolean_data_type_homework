@@ -1,3 +1,6 @@
+from math import sqrt
+
+
 def main(a):
     """
     Check that the number "a" is a perfect square.
@@ -7,4 +10,8 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    n = sqrt(a)
+    return n % (int(n)) == 0
+
+
+print(main(623))
