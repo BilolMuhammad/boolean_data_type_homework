@@ -10,4 +10,4 @@ def main(a):
     return a >= 0 and a % (a // 1) == 0
 
 
-print(main(0))
+print(main(45))
