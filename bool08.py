@@ -7,12 +7,7 @@ def main(a):
         bool
     """
     # Write your code here
-    if a == 0:
-        return True
-    elif a % (a//1) == 0:
-        return True
-    else:
-        return False
+    return a == 0 or a % (a//1) == 0
 
 
-print(main(4.5))
+print(main(4))
